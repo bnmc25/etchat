@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content lang="فارسی" version="3050">
+	<chat_js>
+		<start_prop_link>پاک کردن پیام ها</start_prop_link>
+		<start_prop_link>تاریخچه چت</start_prop_link>
+		<start_prop_link>صدای پیام:</start_prop_link> 
+		<start_prop_link>روشن</start_prop_link>
+		<start_prop_link>خاموش</start_prop_link>
+		<start_prop_link>تغییر کلمه رمز</start_prop_link> 
+		<start_prop_link>رمز جدید:</start_prop_link>
+		<start_prop_link>روشن در خصوصی</start_prop_link><!-- Sound status -->
+		<start_prop_register>
+			<start_prop_link>ثبت اسم شما</start_prop_link> 
+			<title>ثبت نام</title>
+			<pw1>رمز:</pw1>
+			<pw2>تکرار رمز:</pw2>
+			<button_register>تایید</button_register>
+			<button_cancel>انصراف</button_cancel>
+			<befor_registering>با انتخاب یک کلمه رمز شما میتوانید از اسم خود  به عنوان آیدی اختصاصی استفاده کنید</befor_registering>
+			<after_registering>متشکریم بابت ثبت نام شما - هم اکنون از روم خارج شوید و دوباره وارد شوید</after_registering>
+			<after_registering_link>خروج از روم</after_registering_link>
+			<error>رمز های شما با هم تطابق ندارند لطفا تصحیح کنید</error>
+		</start_prop_register>
+		<start>به همه افراد این روم:</start>
+		<ajaxreadrequest>شما مدت زیادیست که ساکتید تا 30 ثانیه دیگر از روم بیرون میروید</ajaxreadrequest>
+		<receiveresultjson>at</receiveresultjson>
+		<receiveresultjson>privat</receiveresultjson>
+		<receiveresultjson_priv>into chat</receiveresultjson_priv>
+		<receiveresultjson_priv>into window</receiveresultjson_priv>
+		<receiveresultjson_priv>پاسـخ دادن</receiveresultjson_priv>
+		<send>ارسال...</send>
+		<historywindow>تاریخچه</historywindow>
+		<updateuseronlineanzeige>روم ها و کاربران</updateuseronlineanzeige>
+		<updateuseronlineanzeige>کاربران روم:</updateuseronlineanzeige>
+		<updateuseronlineanzeige>گرفتن نام کاربری</updateuseronlineanzeige>
+		<statuslink>وضعیت کاربر</statuslink>
+		<status imagename="status_online" rights="all">آنلاین</status> 
+		<status imagename="status_invisible" rights="admin">پینهان</status>
+		<status imagename="status_busy" rights="all">مشغول</status>
+		<status imagename="status_away" rights="all">نیستم</status>
+		<status imagename="status_smil" rights="all">مایل به چت</status>
+		<status imagename="status_controller" rights="all">درحال بازی</status> 
+		<status imagename="status_telephone" rights="all">در حال صحبت با تلفن</status>
+		<status imagename="status_heart" rights="all">عاشقم</status>
+		<changeuserevent>
+			<privat>خصوصی با</privat>
+			<privat>پایان چت خصوصی</privat>
+			<room>وارد شد</room>
+			<infoblock>کاربر:</infoblock>
+			
+			<infoblock>گرفتن نام کاربری</infoblock>
+			<infoblock>چت خصوصی در صفحه چت</infoblock>
+			<infoblock>چت خصوصی در پنجره جدید</infoblock>
+			
+			<infoblock>مسدود سازی پیام ها</infoblock>
+			<infoblock>همه</infoblock>
+			<infoblock>فقط خصوصی</infoblock>
+
+			<adminu>وارد کردن آی پی کاربر به لیست اخراجی ها</adminu>
+			<adminu>انجام بده</adminu>
+			<adminu>is a</adminu>
+			<adminu>شما نمیتوانید این کاربر را مدیریت کنید</adminu>
+			<adminu_opt>اخراج کاربر</adminu_opt>
+			<adminu_opt>10 دقیقه</adminu_opt>
+			<adminu_opt>30 minutes</adminu_opt>
+			<adminu_opt>1 hour</adminu_opt>
+			<adminu_opt>3 hour</adminu_opt>
+			<adminu_opt>1 day</adminu_opt>
+			<adminu_opt>1 week</adminu_opt>
+			<adminu_opt>همیشگی</adminu_opt>
+			<notallowedroom>شما مجاز به ورود به این روم نیستید</notallowedroom>
+			<notallowedroom>تایید</notallowedroom>
+			<pwroom>این روم دارای رمز می باشد برای ورود باید رمز را وارد کنید.</pwroom>
+			<pwroom>رمز شما اشتباه می باشد</pwroom>
+		</changeuserevent>
+	</chat_js>
+	<chat_php>
+		<hallo_user>خوش آمدید</hallo_user>
+		<privat_anzeige>به همه افراد:</privat_anzeige>
+		<sagen>ارسال پیــام</sagen>
+		<smileys>شکلک ها</smileys>
+		<color>فونت ها و رنگ ها</color>
+		<prop>تنظیمات دیگر</prop>
+		<logout>خروج از چت</logout>
+	</chat_php>
+	<index_php>
+		<name>اسم شما:</name>
+		<pw>رمز:</pw>
+		<gender>جنسیت:</gender>
+		<sex>نامعلوم</sex>
+		<sex>پسر</sex>
+		<sex>دختر</sex>
+		<invisible>ورود مخفی</invisible>
+		<submit>ورود به چت</submit>
+	</index_php>
+	<reloader_php> 
+		<spam>لطفا آرام تر تایپ کنید</spam>
+	</reloader_php>
+	<checkusername_php>
+		<name_busy>این اسم قبلا توسط کاربری دیگر انتخاب گردیده است</name_busy>
+		<pw_falsch>رمز شما اشتباه است</pw_falsch>
+		<many_logins>شما برای مدت 3 دقیقه اخراج شده اید</many_logins>
+		<eintritt>وارد روم شد</eintritt>
+	</checkusername_php>
+	<logout_php>
+		<exit>خارج شد</exit>
+	</logout_php>
+	<farben_fenster_php>
+		<font>فونت:</font>
+		<kursiv>رنگ</kursiv>
+		<bold>کلفت</bold>
+		<colormanagement>مدیریت رنگ:</colormanagement>
+		<aktcol>انتخاب رنگ:</aktcol>
+	</farben_fenster_php>
+	<history_php>
+		<priv>پیام های خصوصی</priv>
+		<user>کاربر</user>
+		<date>تاریخ</date>
+		<text>متن</text>
+		<room>پیام</room>
+		<site_of>در</site_of>
+		<site>سایت:</site>
+		<export>خروجی تاریخچه چت:</export>
+		<empty>هیچ اطلاعاتی یافت نشد</empty>
+	</history_php>
+	<admin>
+		<add2blacklist>
+			<session_lost>You\'re not allowed to be here your session is lost.</session_lost>
+			<user_away>کاربر حاضر نیست</user_away>
+		</add2blacklist>
+		<blacklist>
+			<title>شما تا این تاریخ اخراج شده اید</title>
+			<cont>اگه سوالی دارید با مسئول سایت تماس بگیرید</cont>
+			<link_zurueck pfad="./">برگشت به صفحه ورود</link_zurueck>
+		</blacklist>
+		<kick>
+			<title>شما اخراج شدید اما میتوانید باز وارد شید</title> 
+			<cont>With questions you turn to the chat operator.</cont>
+			<link_zurueck pfad="./">برگشت به صفحه ورود</link_zurueck>
+		</kick>
+		<spam>
+			<title>You was automaticly banned for 5 minutes from the chat because of flooding.</title> 
+			<cont>With questions you turn to the chat operator.</cont>
+			<link_zurueck pfad="./">Back to login page</link_zurueck>
+		</spam>
+		<index_php>
+			<error>اینجا فقط مختص مدیران چت می باشد</error>
+			<link>مدیریت لیست اخراجی ها</link>
+			<link>مدیریت روم ها</link>
+			<link>مدیریت مدیرها و ناظر ها</link>
+			<link>تنظیمات عمومی چت</link>
+			<link>مدیریت شکلک ها</link>
+			<link>مدیریت کاربران ثبت نام کرده</link>
+		</index_php>
+		<admin_blacklist>
+			<backlink>برگشت به صفحه مدیریت</backlink>
+			<deletelink>حذف</deletelink>
+			<note>تغییرات بعد از چند ثانیه انجام می شود</note>
+			<empty>لیست اخراجی ها خالی می باشد</empty>
+			<error>You\'re not allowed to be here your session is lost.</error>
+		</admin_blacklist>
+		<admin_rooms>
+			<backlink>برگشت به مدیریت</backlink>
+			<newroom>ساختن روم جدید</newroom>
+			<roomname>اسم:</roomname>
+			<room_priv>باز شدن برای همه</room_priv>
+			<room_priv>فقط مدیران و ناظرها</room_priv>
+			<room_priv>فقط مدیران</room_priv>
+			<room_priv>دارای کلمه رمز</room_priv>
+			<create>ساختن</create>
+			<roomslist>لیست روم ها</roomslist>
+			<rename>ویرایش</rename>
+			<delete>حذف</delete>
+			<pass>رمز عبور:</pass>
+			<message>پیام خوش امدگویی:</message> 
+			<note>تغییرات بعد از چند ثانیه انجام می شود</note>
+			<error>You\'re not allowed to be here your session is lost.</error>
+		</admin_rooms>
+		<admin_smilies>
+			<backlink>برگشت به مدیریت</backlink>
+			<smilie>اضافه کردن شکلک جدید</smilie>
+			<file_exists>The file with this name exists, so your uploaded file war renamed in:</file_exists>
+			<file>انتخاب شکلک:</file>
+			<file>کاراکتر مورد استفاده:</file>
+			<file>ارسال</file>
+			<file>جستجو</file>
+			<create>ساختن</create>
+			<pic>شکلک</pic>
+			<rename>ویرایش</rename>
+			<delete>حدف</delete>
+			<sign>کاراکتر مورد استفاده</sign>
+			<sign_exists>این کاراکتر از قبل موجود می باشد</sign_exists>
+			<isupload>فایل با موفقیت آپلود شد</isupload>
+			<noupload>مشکل در آپلود شکلک ها</noupload>
+			<title>مدیریت شکلک ها</title>
+			<back>برگشت</back>
+			<note>تغییرت بعد از چند ثانیه اعمال می شود</note>
+			<error>You\'re not allowed to be here your session is lost.</error>
+		</admin_smilies>
+		<admin_user>
+			<backlink>بازگشت به صحفه مدیریت</backlink>
+			<new_user>ساخت یک مدیر یا ناظر جدید</new_user>
+			<edit>ویرایش</edit>
+			<noadmins>اشکال در بانک اطلاعاتی مدیری یافت نشد</noadmins>
+			<note>تغییرات انجام شده پس از چند ثانیه اعمال می شود</note>
+			<error>You\'re not allowed to be here your session is lost.</error>
+			<name>اسم:</name>
+			<pw>رمز:</pw>
+			<pw_note>(if this field leaves empty, the old password will maintain)</pw_note>
+			<priv>حقوق ویژه:</priv>
+			<save>ذخیره</save>
+			<make_norm_user>لغو درجه</make_norm_user>
+			<del_priv>انصراف از همه درجات</del_priv>
+		</admin_user>
+		
+		<admin_reg_user>
+			<backlink>برگشت به مدیریت</backlink>
+			<set_all>انتخاب همه</set_all>
+			<unset_all>بدون انتخاب</unset_all>
+			<del>حذف کاربر انتخابی</del>
+			<make2>تغییر به:</make2>
+			<text>اگر کاربری حذف شد همه میهمانان میتوانند از اسم وی استفاده کنند</text>
+			<note>تغییرات اعمال شده پس از چند ثانیه انجام می شود</note>
+			<error>You\'re not allowed to be here your session is lost.</error>
+			<nouser>هیچ کاربر ثبت نام کرده ای یافت نشد</nouser>
+			<nouser2>برای انتخاب مدیر در ابتدا باید کاربر ثبت نام کرده باشد</nouser2>
+			<site_of>در</site_of>
+			<site>سایت:</site>
+		</admin_reg_user>
+		
+		<admin_prop>
+			<backlink>برگشت به مدیریت</backlink>
+			<anz>تعداد خطوط پیم ها در چت:</anz>
+			<dbsets>رکورد های بانک اطلاعاتی تا چه زمانی باقی بمانند:</dbsets>
+			<time>رئز)</time>
+			<reload> زمان بارگزاری مجدد رکوردها:</reload>
+			<style>شکل:</style>
+			<lang>زبان:</lang>
+			<error>You\'re not allowed to be here your session is lost.</error>
+			<note>این تغییرات پس از ورود مجدد به روم اعمال می شوند</note>
+		</admin_prop>
+	</admin>
+</content>

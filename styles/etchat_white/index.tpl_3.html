@@ -1,0 +1,78 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>چت روم ایرانیان</title>
+<meta name="description" content=""/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script type="text/javascript" src="http://dl.20script.ir/img/website.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<link href="login.css" rel="stylesheet" type="text/css"/>
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/scriptaculous.js" type="text/javascript"></script>
+  <script src="js/login.js"  type="text/javascript"></script>
+<div style="position:fixed; right:1px; z-index:1000; padding:5px;width:180px;"> 
+امروز : 
+
+﻿
+<script type='text/javascript' src='date.js'></script><script language=javascript>function pz() {};init();document.getElementById('cities').selectedIndex=12;coord();main();</script>
+</div>
+</head>
+<body>
+<div id="main_container">
+  <div class="index_container">
+    <div style="text-align:center; height:150px;">
+
+      <img src="logo.png" alt="" style="margin-top:50px;" /> </div>
+      <div class="index_content">
+      <div id="save"> <p>به چت روم  ترنم چت خوش آمدید. این چت روم فقط و فقط مخصوص ایرانیان مقیم خارج از کشور می باشد،در صورتی که مقیم خارج از کشور نیستید وارد این چت روم نشوید چون ممکن است کاربران روم به زبان های مختلف به غیر از فارسی با یکدیگر  چت نمایند .<br>برای ورود به محیط چت ابتدا نام خود را وارد نمایید. سپس روی دکمه ورود به چت روم کلیک کنید.</p>
+      </div>
+      <div style="height:300px; text-align:center">
+        
+        <div class="form_box">
+		<form id="login" action="">
+
+  		<input type="hidden" name="<?=$_SESSION[$this->_prefix.'set_check']?>" value="<?=$this->aktuell_date_u?>" />
+          
+          <br class="clr" />
+          
+          <div class="field" style="margin-bottom:0px;">
+            <input name="username" id="username" value="" maxlength="100" type="text" />
+          </div>
+          <div class="lable" style="line-height:14px; margin-top:0px;"><br/>نام شما:</div>
+          <br class="clr" />
+          <div id="lay_gender">
+           <div class="field" style="margin-bottom:0px;">
+            <select id="gender" name="gender" size="1">
+  <option value="n"><?=$this->lang->sex[0]->tagData?></option>
+  <option value="m"><?=$this->lang->sex[1]->tagData?></option>
+  <option value="f"><?=$this->lang->sex[2]->tagData?></option>
+  </select>
+          </div>
+          <div class="lable" style="line-height:14px; margin-top:0px;"><br/>جنسیت:</div>
+          <br class="clr" />
+          </div>
+          <div id="lay_pw" style="display:none">
+           <div class="field" style="margin-bottom:0px;">
+            <input name="pw" id="pw" value="" type="password" />
+          </div>
+          <div class="lable" style="line-height:14px; margin-top:0px;"><br/>رمز عبور:</div>
+          <br class="clr" />
+          </div>
+          <div class="field">
+            <input type="submit" name="go" value="ورود به چت" class="main_btn1" />
+          </div>
+          <div class="lable">&nbsp;</div>
+          <br class="clr" />
+		</form>
+        </div>
+        <br class="clr" />
+      </div>
+</div>
+	    <p>کلیه حقوق چت روم محفوظ می باشد   &nbsp; |   &nbsp; طراحی چت روم : <a target="_blank" title="گروه طراحی بیست اسکریپت" href="http://www.20script.ir" class="green_link"><strong>گروه بیست اسکریپت</strong></a></p>
+  </div>
+</div>
+</body>
+</html>
